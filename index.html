@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bolsa</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="img/logo3.jpg" id="logo">
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                        <img src="img/bag.png" id="img-bolsa">
+                        <div id="bolsa">
+                            <table id="lista-bolsa" class="u-full-width">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                        <th>Total</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                                <tfoot></tfoot>
+                            </table>
+                            <a href="#" id="vaciar-bolsa" class="button u-full-width">Vaciar bolsa</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+</header>
+<div id="hero">
+    <div class="container">
+        <div class="row">
+            <div class="six columns">
+                <div class="contenido-hero">
+                    <h2 style="font-family: Comic Sans MS; font-size: 50px;">Reyno Fungi de Hoffman</h2>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+<div class="barra"></div>
+<div id="lista-productos" class="container">
+    <p id="encabezado" class="encabezado" style="font-size: 30px; font-family: Comic Sans MS;">Desde hace miles de años, los pueblos indígenas han obtenido de la naturaleza sus medicinas ancestrales. Lejos de los laboratorios y las sustancias químicas, la respuesta a muchas dolencias está en las plantas y hongos que se encuentran en distintos ecosistemas.
+        Así lo demuestran las investigaciones científicas que en las últimas décadas avanzan en todo el mundo en torno a sustancias como la psilocibina, el principal compuesto de los denominados "hongos mágicos", unas 200 especies de fungus contienen naturalmente este compuesto.
+        Esta sustancia psicoactiva, según recientes investigaciones, ayuda -junto con la psicoterapia de apoyo a tratar enfermedades como la depresión, la ansiedad social, anorexia nerviosa, estrés postraumático o distintos tipos de adicciones como el alcoholismo.
+    </p>
+    <h1 id="encabezado" class="encabezado encabezado-texto" style="font-family: Comic Sans MS;">PRODUCTOS</h1>
+    <div class="row">
+        <div class="four columns">
+            <div class="card">
+                <img src="img/cubensis.jpg" class="card-image">
+                <div class="info-card">
+                    <h4>Psilocybe Cubensis</h4>
+                    <p class="precio"><span class="u-pull-right ">$30000</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-bolsa" data-id="1">Comprar ahora</a>
+                </div>
+            </div> <!--.card-->
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/medio.jpg" class="card-image">
+                <div class="info-card">
+                    <h4>Medio de cultivo</h4>
+                    <p class="precio"><span class="u-pull-right ">$20000</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-bolsa" data-id="2">Comprar ahora</a>
+                </div>
+            </div> <!--.card-->
+        </div>
+        <div class="four columns">
+            <div class="card">
+                <img src="img/esporas.jpg" class="card-image">
+                <div class="info-card">
+                    <h4>Esporas</h4>
+                    <div class="variety-list">
+                        <label>Variedades</label>
+                        <select name="Variety List Esporas" id="variety-list-esporas">
+                            <option value="albino" data-id="4">Albino A+</option>
+                            <option value="golden" data-id="5">Golden Teacher</option>
+                            <option value="mckenai" data-="6">Mckennaii</option>
+                            <option value="lizard" data-id="7">Lizard King</option>
+                        </select>
+                    </div>
+                    <p class="precio"><span class="u-pull-right ">$15000</span></p>
+                    <a href="#" class="u-full-width button-primary button input agregar-bolsa" data-id="3">Comprar ahora</a>
+                </div>
+            </div> <!--.card-->
+        </div>
+    </div> <!--.row-->
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
